@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================= -->
+<!--  EDIT THESE TWO THINGS:                                        -->
+<!--  1. Replace  USERNAME  and  REPO  below with your GitHub       -->
+<!--     username and repo name (appears twice: og:image + og:url). -->
+<!--     Example: https://gsmith.github.io/rsvp/invite.jpg          -->
+<!--  2. Confirm the FORM_URL is your correct Google Form link.     -->
+<!-- ============================================================= -->
+
+<title>Sarah + Garrett — Engagement Party</title>
+
+<!-- Open Graph tags: these are what iMessage / iPhone reads to build the card -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sarah + Garrett — Engagement Party">
+<meta property="og:description" content="August 15, 2026 · 5–7 PM · Carolina Brewery, Pittsboro NC. Tap to RSVP by August 1st.">
+<meta property="og:image" content="https://USERNAME.github.io/REPO/invite.jpg">
+<meta property="og:image:width" content="1440">
+<meta property="og:image:height" content="1800">
+<meta property="og:url" content="https://USERNAME.github.io/REPO/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://USERNAME.github.io/REPO/invite.jpg">
+
+<style>
+  :root{ --bg:#c8d5dd; --bg2:#cdd9e0; --ink:#2b3137; --sub:#414952; --line:#6f7a86; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:Georgia,'Times New Roman',serif;
+    background:linear-gradient(170deg,var(--bg2),var(--bg));
+    color:var(--ink);min-height:100vh;
+    display:flex;flex-direction:column;align-items:center;
+    padding:28px 20px 48px;
+  }
+  .card{width:100%;max-width:440px;text-align:center}
+  img.invite{width:100%;border-radius:12px;
+    box-shadow:0 12px 34px rgba(45,60,80,.20);display:block}
+  .rsvp{
+    display:inline-block;margin-top:26px;
+    padding:16px 40px;border-radius:999px;
+    background:var(--ink);color:#eef3f6;
+    font-size:19px;letter-spacing:.06em;text-decoration:none;
+    box-shadow:0 6px 18px rgba(43,49,55,.28);
+  }
+  .rsvp:active{transform:translateY(1px)}
+  .meta{margin-top:18px;font-size:15px;color:var(--sub);letter-spacing:.04em;line-height:1.5}
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="invite" src="invite.jpg" alt="Sarah and Garrett Engagement Party invitation">
+    <a class="rsvp" href="https://forms.gle/dPQqYgv9YMESZuTz6">RSVP by August 1st</a>
+    <p class="meta">Carolina Brewery · 120 Lowes Dr #100, Pittsboro, NC<br>August 15, 2026 · 5–7 PM</p>
+  </div>
+</body>
+</html>
